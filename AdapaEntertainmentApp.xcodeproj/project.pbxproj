@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B01030629F3216000DC1627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01030529F3216000DC1627 /* AppDelegate.swift */; };
+		6B01030829F3216000DC1627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01030729F3216000DC1627 /* SceneDelegate.swift */; };
+		6B01030A29F3216000DC1627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01030929F3216000DC1627 /* ViewController.swift */; };
+		6B01030D29F3216000DC1627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01030B29F3216000DC1627 /* Main.storyboard */; };
+		6B01030F29F3216100DC1627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B01030E29F3216100DC1627 /* Assets.xcassets */; };
+		6B01031229F3216100DC1627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B01031029F3216100DC1627 /* LaunchScreen.storyboard */; };
+		6BBF35B629F33E8B0050FE4E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35B529F33E8B0050FE4E /* HomeVC.swift */; };
+		6BBF35B829F33EA10050FE4E /* ActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35B729F33EA10050FE4E /* ActorVC.swift */; };
+		6BBF35BA29F33EBD0050FE4E /* FilmographyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35B929F33EBD0050FE4E /* FilmographyVC.swift */; };
+		6BBF35BC29F33ED10050FE4E /* ActorRatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35BB29F33ED10050FE4E /* ActorRatingVC.swift */; };
+		6BBF35BE29F33EE90050FE4E /* MusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35BD29F33EE90050FE4E /* MusicVC.swift */; };
+		6BBF35C029F33EFC0050FE4E /* PlayMusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35BF29F33EFC0050FE4E /* PlayMusicVC.swift */; };
+		6BBF35C229F342BA0050FE4E /* ActorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BBF35C129F342BA0050FE4E /* ActorView.xib */; };
+		6BBF35C429F3450B0050FE4E /* ActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35C329F3450B0050FE4E /* ActorView.swift */; };
+		6BBF35C629F349F40050FE4E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35C529F349F40050FE4E /* Model.swift */; };
+		6BBF35C829F3571A0050FE4E /* PosterCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF35C729F3571A0050FE4E /* PosterCVC.swift */; };
+		6BBF35CB29F374480050FE4E /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 6BBF35CA29F374480050FE4E /* YouTubeiOSPlayerHelper */; };
+		6FDAFC81ED2BBB254D18F146 /* Pods_AdapaEntertainmentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB352E98FFE23785516E0369 /* Pods_AdapaEntertainmentApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B01030229F3216000DC1627 /* AdapaEntertainmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapaEntertainmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B01030529F3216000DC1627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B01030729F3216000DC1627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B01030929F3216000DC1627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B01030C29F3216000DC1627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B01030E29F3216100DC1627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B01031129F3216100DC1627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B01031329F3216100DC1627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBF35B529F33E8B0050FE4E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6BBF35B729F33EA10050FE4E /* ActorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorVC.swift; sourceTree = "<group>"; };
+		6BBF35B929F33EBD0050FE4E /* FilmographyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmographyVC.swift; sourceTree = "<group>"; };
+		6BBF35BB29F33ED10050FE4E /* ActorRatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorRatingVC.swift; sourceTree = "<group>"; };
+		6BBF35BD29F33EE90050FE4E /* MusicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVC.swift; sourceTree = "<group>"; };
+		6BBF35BF29F33EFC0050FE4E /* PlayMusicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicVC.swift; sourceTree = "<group>"; };
+		6BBF35C129F342BA0050FE4E /* ActorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActorView.xib; sourceTree = "<group>"; };
+		6BBF35C329F3450B0050FE4E /* ActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorView.swift; sourceTree = "<group>"; };
+		6BBF35C529F349F40050FE4E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6BBF35C729F3571A0050FE4E /* PosterCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCVC.swift; sourceTree = "<group>"; };
+		76C1D2EB9BCCAD6004653CBF /* Pods-AdapaEntertainmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapaEntertainmentApp.debug.xcconfig"; path = "Target Support Files/Pods-AdapaEntertainmentApp/Pods-AdapaEntertainmentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7F61BEFA74414B25973AF50D /* Pods-AdapaEntertainmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdapaEntertainmentApp.release.xcconfig"; path = "Target Support Files/Pods-AdapaEntertainmentApp/Pods-AdapaEntertainmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		FB352E98FFE23785516E0369 /* Pods_AdapaEntertainmentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdapaEntertainmentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B0102FF29F3216000DC1627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDAFC81ED2BBB254D18F146 /* Pods_AdapaEntertainmentApp.framework in Frameworks */,
+				6BBF35CB29F374480050FE4E /* YouTubeiOSPlayerHelper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565DA4E5679E54653F5D8FB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB352E98FFE23785516E0369 /* Pods_AdapaEntertainmentApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B0102F929F3216000DC1627 = {
+			isa = PBXGroup;
+			children = (
+				6B01030429F3216000DC1627 /* AdapaEntertainmentApp */,
+				6B01030329F3216000DC1627 /* Products */,
+				841E7D256DF7C4A7FE9D9070 /* Pods */,
+				565DA4E5679E54653F5D8FB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B01030329F3216000DC1627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B01030229F3216000DC1627 /* AdapaEntertainmentApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B01030429F3216000DC1627 /* AdapaEntertainmentApp */ = {
+			isa = PBXGroup;
+			children = (
+				6B01030529F3216000DC1627 /* AppDelegate.swift */,
+				6B01030729F3216000DC1627 /* SceneDelegate.swift */,
+				6B01030929F3216000DC1627 /* ViewController.swift */,
+				6B01030B29F3216000DC1627 /* Main.storyboard */,
+				6BBF35C129F342BA0050FE4E /* ActorView.xib */,
+				6BBF35C329F3450B0050FE4E /* ActorView.swift */,
+				6BBF35B529F33E8B0050FE4E /* HomeVC.swift */,
+				6BBF35C729F3571A0050FE4E /* PosterCVC.swift */,
+				6BBF35B729F33EA10050FE4E /* ActorVC.swift */,
+				6BBF35C529F349F40050FE4E /* Model.swift */,
+				6BBF35B929F33EBD0050FE4E /* FilmographyVC.swift */,
+				6BBF35BB29F33ED10050FE4E /* ActorRatingVC.swift */,
+				6BBF35BD29F33EE90050FE4E /* MusicVC.swift */,
+				6BBF35BF29F33EFC0050FE4E /* PlayMusicVC.swift */,
+				6B01030E29F3216100DC1627 /* Assets.xcassets */,
+				6B01031029F3216100DC1627 /* LaunchScreen.storyboard */,
+				6B01031329F3216100DC1627 /* Info.plist */,
+			);
+			path = AdapaEntertainmentApp;
+			sourceTree = "<group>";
+		};
+		841E7D256DF7C4A7FE9D9070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76C1D2EB9BCCAD6004653CBF /* Pods-AdapaEntertainmentApp.debug.xcconfig */,
+				7F61BEFA74414B25973AF50D /* Pods-AdapaEntertainmentApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B01030129F3216000DC1627 /* AdapaEntertainmentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B01031629F3216100DC1627 /* Build configuration list for PBXNativeTarget "AdapaEntertainmentApp" */;
+			buildPhases = (
+				21C00ECB80543E47714946A3 /* [CP] Check Pods Manifest.lock */,
+				6B0102FE29F3216000DC1627 /* Sources */,
+				6B0102FF29F3216000DC1627 /* Frameworks */,
+				6B01030029F3216000DC1627 /* Resources */,
+				59C8BBCB36B14E02B751CE79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdapaEntertainmentApp;
+			packageProductDependencies = (
+				6BBF35CA29F374480050FE4E /* YouTubeiOSPlayerHelper */,
+			);
+			productName = AdapaEntertainmentApp;
+			productReference = 6B01030229F3216000DC1627 /* AdapaEntertainmentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B0102FA29F3216000DC1627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6B01030129F3216000DC1627 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6B0102FD29F3216000DC1627 /* Build configuration list for PBXProject "AdapaEntertainmentApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B0102F929F3216000DC1627;
+			packageReferences = (
+				6BBF35C929F374480050FE4E /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+				6BBF35CC29F374710050FE4E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 6B01030329F3216000DC1627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B01030129F3216000DC1627 /* AdapaEntertainmentApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B01030029F3216000DC1627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF35C229F342BA0050FE4E /* ActorView.xib in Resources */,
+				6B01031229F3216100DC1627 /* LaunchScreen.storyboard in Resources */,
+				6B01030F29F3216100DC1627 /* Assets.xcassets in Resources */,
+				6B01030D29F3216000DC1627 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C00ECB80543E47714946A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdapaEntertainmentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C8BBCB36B14E02B751CE79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdapaEntertainmentApp/Pods-AdapaEntertainmentApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdapaEntertainmentApp/Pods-AdapaEntertainmentApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdapaEntertainmentApp/Pods-AdapaEntertainmentApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B0102FE29F3216000DC1627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B01030A29F3216000DC1627 /* ViewController.swift in Sources */,
+				6BBF35B629F33E8B0050FE4E /* HomeVC.swift in Sources */,
+				6BBF35BE29F33EE90050FE4E /* MusicVC.swift in Sources */,
+				6B01030629F3216000DC1627 /* AppDelegate.swift in Sources */,
+				6BBF35BC29F33ED10050FE4E /* ActorRatingVC.swift in Sources */,
+				6BBF35BA29F33EBD0050FE4E /* FilmographyVC.swift in Sources */,
+				6BBF35C429F3450B0050FE4E /* ActorView.swift in Sources */,
+				6BBF35C829F3571A0050FE4E /* PosterCVC.swift in Sources */,
+				6B01030829F3216000DC1627 /* SceneDelegate.swift in Sources */,
+				6BBF35C629F349F40050FE4E /* Model.swift in Sources */,
+				6BBF35B829F33EA10050FE4E /* ActorVC.swift in Sources */,
+				6BBF35C029F33EFC0050FE4E /* PlayMusicVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B01030B29F3216000DC1627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B01030C29F3216000DC1627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B01031029F3216100DC1627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B01031129F3216100DC1627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B01031429F3216100DC1627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B01031529F3216100DC1627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B01031729F3216100DC1627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C1D2EB9BCCAD6004653CBF /* Pods-AdapaEntertainmentApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5VJW7G9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdapaEntertainmentApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.AdapaEntertainmentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B01031829F3216100DC1627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F61BEFA74414B25973AF50D /* Pods-AdapaEntertainmentApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5VJW7G9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdapaEntertainmentApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.AdapaEntertainmentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B0102FD29F3216000DC1627 /* Build configuration list for PBXProject "AdapaEntertainmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B01031429F3216100DC1627 /* Debug */,
+				6B01031529F3216100DC1627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B01031629F3216100DC1627 /* Build configuration list for PBXNativeTarget "AdapaEntertainmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B01031729F3216100DC1627 /* Debug */,
+				6B01031829F3216100DC1627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BBF35C929F374480050FE4E /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		6BBF35CC29F374710050FE4E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6BBF35CA29F374480050FE4E /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BBF35C929F374480050FE4E /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6B0102FA29F3216000DC1627 /* Project object */;
+}
